@@ -142,6 +142,7 @@ In this document the **bolded** text will indicate how important each suggestion
 
         You can rewrite it in a following way:
         ```c++
+            std::set<int> vertexSet;
             for (auto &vertex : face.getSubShapes(TopAbs_VERTEX)) {
                 int vertexId = shape.findShape(vertex);
 
@@ -156,10 +157,10 @@ In this document the **bolded** text will indicate how important each suggestion
 
         This way you split the responsibility of computing unique set with result preparation.
     </details>
-15. (C++ only) Return values **should** be preferred over out arguments.
+16. (C++ only) Return values **should** be preferred over out arguments.
     a. For methods that can fail you can use `std::optional`
     b. For methods that return multiple values it may be better to either provide dedicated struct for result or use `std::tuple` with expression binding.
-16. If expression is not obvious - it **should** be given a name by using variable.
+17. If expression is not obvious - it **should** be given a name by using variable.
     <details>
         <summary>Example #1</summary>
         TODO: Find some good example
