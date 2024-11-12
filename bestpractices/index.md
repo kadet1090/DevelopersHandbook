@@ -7,7 +7,7 @@ Most rules presented here are from this document and whenever something is not c
 don't hesitate to consult it. 
 
 > [!NOTE]  
-> Remember that code review is discussion, don't hasistate to ask for clarification, help etc. Reviewer may be wrong and the goal is to make code to a point where all parties all happy.
+> Remember that code review is a collaborative discussion. Don’t hesitate to ask for clarification or help when needed. Reviewers can also make mistakes, the goal is to work together to refine the code to a point where everyone is satisfied.
 
 In this document the **bolded** text will indicate how important each suggestion is. 
  - **must** will be used for fundamental things that should be non-controversial and which you really should follow
