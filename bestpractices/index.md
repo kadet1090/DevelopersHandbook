@@ -9,6 +9,8 @@ don't hesitate to consult it.
 > [!NOTE]  
 > Remember that code review is a collaborative discussion. Don’t hesitate to ask for clarification or help when needed. Reviewers can also make mistakes, the goal is to work together to refine the code to a point where everyone is satisfied.
 
+While this guideline might not be consistently followed throughout all of the existing codebase, adhering to these practices moving forward will help improve the overall quality of the code and make future contributions more maintainable.
+
 In this document the **bolded** text will indicate how important each suggestion is. 
  - **must** will be used for fundamental things that should be non-controversial and which you really should follow
  - **should** will be used for important details that will apply for vast majority of cases, there could however be valid reasons to ignore them depending on context
